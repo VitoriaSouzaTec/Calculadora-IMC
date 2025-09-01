@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Calculadora de IMC - React 
 
-## Getting Started
+Uma **calculadora de IMC (Índice de Massa Corporal)** desenvolvida com **React** e **Tailwind CSS**.  
+O projeto serve para **treinar lógica **, manipulação de estados em React e **responsividade** com CSS.
 
-First, run the development server:
+
+## ✨ Tecnologias
+
+- [x] React  
+- [x] Tailwind CSS  
+- [x] React Icons  
+- [x] React Toastify  
+
+---
+
+## 🎯 Funcionalidades
+
+- [x] Calculadora de IMC  
+- [x] Validação básica de campos  
+- [x] Feedback com notificações (`react-toastify`)  
+- [x] Layout responsivo  
+
+---
+
+## 📐 Como funciona
+
+1. O usuário insere **peso** e **altura** nos campos.  
+2. Ao clicar em **Calcular**, o IMC é calculado automaticamente.  
+3. É exibida a **categoria do IMC** (ex: abaixo do peso, normal, sobrepeso, obesidade).  
+4. Notificações aparecem em caso de erro ou sucesso.  
+
+---
+
+🚀 Como rodar
+
+Clone o repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/VitoriaSouzaTec/calculadora-imc.git
+cd calculadora-imc
+npm install
+# ou
+yarn
+npm start
+# ou
+yarn start
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
